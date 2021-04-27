@@ -5,18 +5,46 @@
 .side{
   width: 300px;
   height: 100vh;
-  background-color: hsl(214, 27%, 20%);
+  background-color: #253141;
 }
 
 .side-top{
   height: 100px;
   padding: 0 20px;
+  background-color: #253141;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user{
+  font-size: 16px;
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.create{
+  font-size: 10px;
+  color: deepskyblue;
+  padding: 14px;
+  border: 1px solid deepskyblue;
+  text-decoration: none;
 }
 
 .side-main{
   height: calc(100vh - 100px);
   background-color: #2f3e51;
   padding: 0 20px;
+  overflow: scroll;
+}
+
+.room{
+  padding: 20px 0 40px;
+}
+
+.room-name a{
+  text-decoration: none;
+  color: white;
 }
 
 .main{
